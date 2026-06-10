@@ -18,8 +18,4 @@ final class MockNetworkManager: Sendable, NetworkProtocol {
         productList.append(product2)
         return productList
     }
-    
-    func parseData() {
-        //TODO: - parsing code goes here , once done needs to remove this.
-    }
 }
